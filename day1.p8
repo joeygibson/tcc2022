@@ -91,17 +91,33 @@ function _draw()
 		line(x1, y1, x2, y2, c)
 	end
 
+	-- ornaments
+	circfill((tree_bottom_width / 2), 102 - trunk_height, 3, 8)
+	circfill((tree_bottom_width / 2) + 10, 87 - trunk_height, 3, 12)
+
+	circfill((tree_bottom_width / 2) + 20, 72 - trunk_height, 3, 10)
+	circfill(127 - ((tree_bottom_width / 2) + 20), 72 - trunk_height, 3, 8)
+
+	circfill((tree_bottom_width / 2) + 30, 57 - trunk_height, 3, 8)
+	circfill(127 - ((tree_bottom_width / 2) + 30), 57 - trunk_height, 3, 10)
+
 	-- star
 	rect(63, 10, 64, 33, 7)
 	rectfill(63-10, 20, 63+11, 22, 7)
 	circfill(64, 20, 5, 10)
 
+	-- snowman's body
 	circfill(120, 120, 30, 7)
 	circfill(120, 80, 20, 7)
 	circfill(120, 53, 10, 7)
 	circfill(116, 50, 1, 0)
 	circfill(124, 50, 1, 0)
 	circfill(120, 55, 2, 9)
+
+	-- snowman's arm
+	line(100, 75, 80, 60, 4)
+	line(80, 64, 85, 65, 4)
+	line(85, 65, 85, 60, 4)
 end
 __gfx__
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
