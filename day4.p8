@@ -6,7 +6,8 @@ function _init()
 	cls()
 	w=128
 	h=128
-	-- printh("starting up", "pico8.txt", true, true)
+	
+	?"\^!5f102░4♥7?◆🅾️웃9"
 end
 
 function _draw()
