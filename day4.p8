@@ -12,17 +12,8 @@ end
 function _draw()
 	for x=0,127 do
 		for y=0,127 do
-			tm=t()
-			c = sin((x + tm)/80) + sin((y+tm)/80)
-			
-			if c < 0.01 then
-				c *= 100
-			elseif c < 1 then
-				c *= 10
-			end
-
-			c1 = c*4
-			pset(x,y, c1)
+			c = t() + sin(x/80) + sin(y/80)
+			pset(x,y, c*4)
 		end
 	end
 end
