@@ -11,3 +11,5 @@ Here they are:
 ![godawful pulsating color pattern](./day3.p8.png "Day 3")
 ![fairly cool pulsating color pattern](./day3a.p8.png "Day 3a")
 ![a plasma animation](./day4.p8.png "Day 4")
+
+![a less than exciting tunnel](./day5.p8.png "Day 5")
