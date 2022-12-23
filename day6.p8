@@ -6,14 +6,12 @@ function _draw()
 	cls()
 
 	for i=1,#text do
-		rectfill(0,0,96,16,0)
 		x=20+4*i-t()*20
 		if (x<0) then x=127-(abs(x)%128) end
-		print(t()..", "..x,0,0,2)
 		
 		print(text[i],
 			x,
-			60+sin(i/9)*10,
+			60+sin((x+10)/100) * 16,
 			2)
 	end
 end
