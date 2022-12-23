@@ -13,3 +13,4 @@ Here they are:
 ![a plasma animation](./day4.p8.png "Day 4")
 
 ![a less than exciting tunnel](./day5.p8.png "Day 5")
+![a sine scroller](./day6.p8.png "Day 6")
