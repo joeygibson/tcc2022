@@ -8,11 +8,11 @@ function _draw()
 	for i=1,#text do
 		x=20+4*i-t()*20
 		if (x<0) then x=127-(abs(x)%128) end
-		
+		if (i%2==0) then c=8 else c=3 end
 		print(text[i],
 			x,
 			60+sin((x+10)/100) * 16,
-			2)
+			c)
 	end
 end
 
