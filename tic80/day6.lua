@@ -4,7 +4,6 @@ function TIC()
 	cls()
 
 	for i=1,#text do
-		t=time()*0.02
 		if (i%2==0) then c=6 else c=2 end
 		
 		x=(i-time()/99)%64*20
