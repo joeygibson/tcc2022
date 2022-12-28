@@ -17,8 +17,8 @@ function TIC()
 		x=(i-time()/999)%64*20
 		if x>600 then x=x-600 end
 		y=math.floor(55+math.sin((x+10)/50) * 50)
-
-		print(string.sub(text,i,i),x,y,0,true,3)
+		if (i%2==0) then c=6 else c=2 end
+		print(string.sub(text,i,i),x,y,c,true,3)
 	end
 end
 
