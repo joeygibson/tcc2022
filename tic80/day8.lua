@@ -23,7 +23,10 @@ function TIC()
 	for i=0,32639 do
 		local x=math.floor(i%240)
 		local y=math.floor(i/240)
-		local c=pix(x+1,y)
+		local c=0
+		if x<239 then
+			c=pix(x+1,y)
+		end
 		pix(x,y,c+1)
 	end
 end
